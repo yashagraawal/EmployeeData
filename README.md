@@ -14,6 +14,14 @@ Execution Workflow:
 - When adding a new employee, their details are added to the database. on the other hand, when updating an existing employee, their information is modified in the database.
 - Application provides an option to delete employees, removing them from the database.
 
+Running the Project Locally:
+
+- Clone the project repository to your local machine.
+- Import the project into Spring Tool Suite (STS) or any other preferred IDE.
+- By default, the project uses the H2 database. However, it can be modified to use other databases as per specific requirements. Ensure to verify the mapping of the employee model class to the corresponding database table.
+- Run the project within your IDE environment.
+- Once the project is successfully running, navigate to the specified service path to access the application.
+
 Upcoming Features:
 - Implementation of user login functionality to enhance security and access control.
 - Integration of role-based authorization mechanisms, allowing different levels of access to employee details based on user roles.
